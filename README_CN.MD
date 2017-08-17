@@ -11,12 +11,6 @@ get_trades.py 会获取这些交易记录并且用图片的方式展示出来。
 ##  模型
 rnn_predicter.py 使用  LSMT 模型。截取 10个交易记录作为输入，如果 第 11个加个比第10个高，就把输出设置为 [1,0,0]，如果低就设置为 [0,0,1] ，如果相同 [0,1,0]。
 
-##  训练结果
-https://github.com/TensorFlowNews/TensorFlow-Bitcoin-Robot/blob/master/training_result.md
-
-##  之前的项目推荐
-FaceRank - Rank Face by CNN Model based on TensorFlow (add keras version).
-https://github.com/fendouai/FaceRank
 
 ## 后续更新发布
 http://www.tensorflownews.com/
